@@ -1,0 +1,8 @@
+server:
+  port: 7002
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka-server-01.com:7001/eureka,http://eureka-server-03.com:7003/eureka
